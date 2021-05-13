@@ -2,8 +2,8 @@
 // These must be at the very top of the file. Do not edit.
 // icon-color: deep-gray; icon-glyph: laptop-code;
 
-// Hex Dump (mainly focused on inages) by Rhinozz
-// Very slow for larger images.
+// Hex Dump by Rhinozz
+// Very slow for larger files.
 
 // enter file path after "Documents/" - in the files app, it's starting from /iCloud Drive/Scriptable/.
 var bytes = FileManager.iCloud().read("/private/var/mobile/Library/Mobile Documents/iCloud~dk~simonbs~Scriptable/Documents/").getBytes();
