@@ -19,4 +19,6 @@ for(const i in bytes) {
         hexstack = [];
     }
 }
+fullhex.push(hexstack.join(" "));
+
 console.log(fullhex.join("\n"));
